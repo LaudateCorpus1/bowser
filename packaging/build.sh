@@ -29,6 +29,7 @@ fpm \
   -m "Discord, Inc." \
   --url "https://github.com/discord/bowser" \
   --deb-systemd systemd/bowser.service \
+  --debug \
   build/=/
 
 rm -r build

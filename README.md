@@ -58,6 +58,12 @@ Host credit-card-database1
 Versions up to 1.3.2 used Upstart on Ubuntu 14.04.
 Version 2.0.0 and above use Systemd on Ubuntu 18.04.
 
+### Failure to build Debian package from Mac OSX
+
+```
+brew install gnu-tar
+```
+
 ### OpenSSH fails with "no private key for certificate"
 
 This is caused by [this](https://bugzilla.mindrot.org/show_bug.cgi?id=2550) OpenSSH bug. Upgrade your version of OpenSSH to resolve.
